@@ -1,0 +1,16 @@
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  animation: spinner 30s linear infinite;
+  position: fixed;
+  top: 110px;
+  left: -250px;
+  opacity: 0.4;
+}
